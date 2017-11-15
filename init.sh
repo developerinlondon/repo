@@ -1,6 +1,6 @@
 repo init \
-  --repo-url ssh://coderepo.dev2.cloud.local:29418/opsvcs/android_repo \
-  -u ssh://coderepo.dev2.cloud.local:29418/opsvcs/ansible/manifest \
-  -g base,soe \
+  --repo-url git+ssh://git@bitbucket.com/sdsgmbh/android_repo \
+  -u ssh://git@bitbucket.com/sdsgmbh/manifest.git \
+#  -g base,soe \
   -b master
-repo sync --no-clone-bundle
+#repo sync --no-clone-bundle

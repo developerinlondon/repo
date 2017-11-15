@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hash>
+  <manifest>
+    <remote>
+      <name>origin</name>
+      <fetch>ssh://git@bitbucket.org/</fetch>
+    </remote>
+    <default>
+      <revision>master</revision>
+      <remote>origin</remote>
+    </default>
+    <project type="array">
+      <project>
+        <name>sdsgmbh/ansible-group-vars</name>
+        <path>group_vars</path>
+        <revision>master</revision>
+        <groups>base</groups>
+      </project>
+      <project>
+        <name>sdsgmbh/ansible-inventories</name>
+        <path>inventories</path>
+        <revision>master</revision>
+        <groups>base</groups>
+      </project>
+      <project>
+        <name>sdsgmbh/ansible-roles</name>
+        <path>roles</path>
+        <revision>master</revision>
+        <groups>base</groups>
+      </project>
+    </project>
+  </manifest>
+</hash>

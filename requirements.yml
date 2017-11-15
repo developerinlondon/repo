@@ -1,0 +1,7 @@
+---
+- name: osmo-modules
+  src: git+ssh://git@bitbucket.org/motabilityoperations/osmo_modules.git
+  scm: git
+- name: aws-account
+  src: git+ssh://git@bitbucket.org/motabilityoperations/aws_account.git
+  scm: git

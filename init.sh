@@ -1,6 +1,6 @@
 repo init \
   --repo-url git+ssh://git@bitbucket.com/sdsgmbh/android_repo \
-  -u ssh://git@bitbucket.com/sdsgmbh/manifest.git \
-#  -g base,soe \
+  - m manifest.yml \
   -b master
-#repo sync --no-clone-bundle
+#  -g base,soe \
+repo sync --no-clone-bundle

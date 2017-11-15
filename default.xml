@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<manifest>
-  <remote name="origin" fetch="ssh://git@bitbucket.org/" />
-  <default revision="master" remote="origin" />
-  <project name="sdsgmbh/ansible-group-vars" path="group_vars" revision="master" groups="base"/>
-  <project name="sdsgmbh/ansible-inventories" path="inventories" revision="master" groups="base"/>
-  <project name="sdsgmbh/ansible-roles" path="roles" revision="master" groups="base"/>
-</manifest>
